@@ -27,6 +27,12 @@ export const onboard = init({
       label: "Aurora Mainnet",
       rpcUrl: "https://mainnet.aurora.dev",
     },
+    {
+      id: "0x1e14",
+      token: "CANTO",
+      label: "Canto Mainnet",
+      rpcUrl: "https://canto.gravitychain.io",
+    },
   ],
   appMetadata: {
     name: "NEAR Discovery",

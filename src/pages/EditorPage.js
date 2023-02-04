@@ -557,6 +557,7 @@ export default function EditorPage(props) {
                   <Editor
                     value={code}
                     path={widgetPath}
+                    theme="vs-dark"
                     defaultLanguage="javascript"
                     onChange={(code) => updateCode(path, code)}
                     wrapperProps={{
@@ -604,6 +605,7 @@ export default function EditorPage(props) {
                   <Editor
                     value={widgetProps}
                     defaultLanguage="json"
+                    theme="vs-dark"
                     onChange={(props) => setWidgetProps(props)}
                     wrapperProps={{
                       onBlur: () => reformatProps(widgetProps),

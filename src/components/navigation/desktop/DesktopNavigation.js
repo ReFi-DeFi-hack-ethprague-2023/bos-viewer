@@ -65,8 +65,8 @@ export function DesktopNavigation(props) {
           <Logotype />
         </Link>
         <div className="navigation-section">
-          <NavigationButton route="/">Home</NavigationButton>
-          <NavigationButton route="/edit">Create</NavigationButton>
+          <NavigationButton route="/">Explore</NavigationButton>
+          <NavigationButton route="/edit">Build</NavigationButton>
           <NavigationButton href="https://thewiki.near.page/near.social_docs">
             Documentation
             <ArrowUpRight />

@@ -2,27 +2,15 @@ import React from "react";
 
 export function NearSocialLogo() {
   return (
-    <svg
-      width="29"
-      height="20"
-      viewBox="0 0 29 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M9.55396 17.509L2 9.99996L9.55396 2.49097"
-        stroke="#3D7FFF"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M19.536 2.49097L27 9.99996L19.536 17.509"
-        stroke="#3D7FFF"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+<svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1357_15261)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.2931 0V6.72414H0V32.2759H6.2931V39H36.5V0H6.2931ZM29.7407 6.72443H13.5185V13.4467H6.75924V25.5502H13.5185V32.2742H29.7407V25.55H13.5185V13.4486H29.7407V6.72443Z" fill="#06FC99"/>
+</g>
+<defs>
+<clipPath id="clip0_1357_15261">
+<rect width="36.5" height="39" fill="white"/>
+</clipPath>
+</defs>
+</svg>
   );
 }
