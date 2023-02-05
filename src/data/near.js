@@ -63,7 +63,7 @@ export const MainNearConfig = {
   wrapNearAccountId: "wrap.near",
   widgets: {
     image: "mob.near/widget/Image",
-    default: "whtt.near/widget/WidgetIcons",
+    default: "mattlock.near/widget/Editor.ComponentSearch",
     viewSource: "mob.near/widget/WidgetSource",
     widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
     widgetMetadata: "mob.near/widget/WidgetMetadata",
