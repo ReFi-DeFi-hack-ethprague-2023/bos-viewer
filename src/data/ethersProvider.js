@@ -33,6 +33,12 @@ export const onboard = init({
       label: "Canto Mainnet",
       rpcUrl: "https://canto.gravitychain.io",
     },
+    {
+      id: "0x2e4",
+      token: "CANTO",
+      label: "Canto Testnet",
+      rpcUrl: "https://eth.plexnode.wtf",
+    },
   ],
   appMetadata: {
     name: "NEAR Discovery",
