@@ -23,6 +23,7 @@ const MainnetDomains = {
   "view.social08.org": true,
   "near.social": true,
   "social.near.page": true,
+  "bos-viewer.pages.dev": true,
   localhost: true,
 };
 
