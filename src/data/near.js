@@ -66,7 +66,7 @@ export const MainNearConfig = {
     image: "mob.near/widget/Image",
     default: "mattlock.near/widget/Editor.ComponentSearch",
     viewSource: "mob.near/widget/WidgetSource",
-    widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
+    widgetMetadataEditor: "whtt.near/widget/WidgetMetadataEditor",
     widgetMetadata: "mob.near/widget/WidgetMetadata",
     profileImage: "mob.near/widget/ProfileImage",
     notificationButton: "mob.near/widget/NotificationButton",

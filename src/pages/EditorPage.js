@@ -63,7 +63,13 @@ export default function EditorPage(props) {
   );
   const [parsedWidgetProps, setParsedWidgetProps] = useState({});
   const [propsError, setPropsError] = useState(null);
-  const [metadata, setMetadata] = useState(undefined);
+  let metadata = {}
+  const [metadataInit, setMetadata] = useState(undefined);
+  let tags =  metadataInit ? metadataInit.tags  : undefined;
+  metadata = {
+    ...metadataInit,
+    "tags": {...tags, "canto-test": ""}
+  }
   const near = useNear();
   const cache = useCache();
   const accountId = useAccountId();
