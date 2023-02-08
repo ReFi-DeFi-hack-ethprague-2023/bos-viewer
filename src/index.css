@@ -30,6 +30,10 @@ button.nav-link {
   border-color: rgb(6, 252, 153);
 }
 
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: black !important;
+}
+
 ul.nav-tabs {
   border-color: rgb(6, 252, 153);
 }
@@ -65,5 +69,9 @@ a.text-decoration-none .nav-link {
 }
 
 .nav-item:hover {
-  border-color: rgb(100, 163, 138) !important;
+  border-color: rgb(6, 252, 153) !important;
+}
+
+.navigation-section {
+  color: rgb(6, 252, 153);
 }

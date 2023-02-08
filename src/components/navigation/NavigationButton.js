@@ -16,7 +16,7 @@ const StyledNavigationButton = styled.div`
 
     &:hover,
     &.active {
-      color: white;
+      color: rgb(6, 252, 153);
       text-decoration: none;
       background-color: var(--slate-dark-6);
     }
