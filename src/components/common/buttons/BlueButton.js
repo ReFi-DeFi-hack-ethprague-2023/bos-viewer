@@ -3,8 +3,8 @@ import { Button } from "./Button";
 import styled from "styled-components";
 
 const StyledButton = styled(Button)`
-  background-color: var(--blue-light-9);
-  border-color: var(--blue-light-9);
+  background-color: rgb(6, 252, 153);
+  border-color: rgb(6, 252, 153);
   color: white;
 `;
 

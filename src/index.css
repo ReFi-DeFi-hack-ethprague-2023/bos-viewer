@@ -14,3 +14,56 @@
   /* For web3 onboard */
   --account-center-position-top: 60px;
 }
+
+button.btn:hover {
+  background-color: rgb(6, 252, 153)!important;
+  border-color: rgb(6, 252, 153);
+}
+
+button.btn {
+  color: rgb(6, 252, 153);
+  border-color: rgb(6, 252, 153);
+}
+
+button.nav-link {
+  color: rgb(6, 252, 153);
+  border-color: rgb(6, 252, 153);
+}
+
+ul.nav-tabs {
+  border-color: rgb(6, 252, 153);
+}
+
+li.nav-link {
+  border-color: rgb(6, 252, 153);
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: rgb(6, 252, 153) !important;
+  color: rgb(6, 252, 153) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  border: 3px solid rgb(6, 252, 153) !important;
+  color:rgb(6, 252, 153) !important;
+  background-color: black !important;
+}
+
+a.text-decoration-none .nav-link {
+  border: 3px solid rgb(6, 252, 153) !important;
+  color:rgb(6, 252, 153) !important;
+  background-color: black !important;
+}
+
+
+.nav-link:hover, .nav-link:focus {
+  color: rgb(100, 163, 138) !important;
+}
+
+.nav-link {
+  color: rgb(6, 252, 153) !important;
+}
+
+.nav-item:hover {
+  border-color: rgb(100, 163, 138) !important;
+}
