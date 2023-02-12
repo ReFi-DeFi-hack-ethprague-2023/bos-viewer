@@ -1,9 +1,16 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Silkscreen&display=swap');
 
 body, html {
   -webkit-font-smoothing: antialiased;
   background-color: black;
   color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  background: repeating-linear-gradient(0deg,#151515 0%,#151515 4px,#141a18 4px,#141a18 8px);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: repeat;
+  background-repeat: repeat-y;
 }
 
 .pointer {
