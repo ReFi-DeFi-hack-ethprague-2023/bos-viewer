@@ -81,6 +81,7 @@ a.text-decoration-none .nav-link {
 .form-control {
   background-color: black !important;
   border: 1.5px solid rgb(6, 252, 153) !important;
+  color:rgb(6, 252, 153) !important;
 }
 
 .mb-2 {
