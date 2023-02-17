@@ -31,7 +31,7 @@ export const onboard = init({
       id: "0x1e14",
       token: "CANTO",
       label: "Canto Mainnet",
-      rpcUrl: "https://canto.gravitychain.io",
+      rpcUrl: "https://canto.slingshot.finance",
     },
     {
       id: "0x2e4",
