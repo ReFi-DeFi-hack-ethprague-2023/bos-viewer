@@ -9,6 +9,7 @@ import { UserDropdown } from "./UserDropdown";
 import { DevActionsDropdown } from "./DevActionsDropdown";
 import { NotificationWidget } from "../NotificationWidget";
 import Web3ConnectButton from "../../ethers/Web3ConnectButton";
+import CosmosBalanceForm from "../../keplr/CosmosBalanceForm"
 
 const StyledNavigation = styled.div`
   position: fixed;
@@ -74,6 +75,7 @@ export function DesktopNavigation(props) {
         </div>
         <div className="user-section">
           <Web3ConnectButton />
+          <CosmosBalanceForm />
           {!props.signedIn && (
             <SignInButton onSignIn={() => props.requestSignIn()} />
           )}
